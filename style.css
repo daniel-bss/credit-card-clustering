@@ -1,0 +1,63 @@
+html {
+  zoom: 90%;
+}
+
+.css-zbg2rx {
+  height: 100%;
+}
+
+.css-nlntq9 a:not(div ul li a) {
+  color: #FFFFFF !important;
+  text-decoration: none;
+  font-size: 1.4em;
+  margin: 0 52px;
+}
+
+div ul li a {
+  color: #FFFFFF !important;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+#title-1z2x {
+  font-weight: bolder;
+  font-size: calc(1rem + 1.5vw);
+  line-height: 1.2;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: -50px;
+}
+
+#caption-1z2x {
+  font-family: "Source Code Pro", monospace;
+  white-space: pre;
+  font-size: 16px;
+  overflow-x: auto;
+  margin-top: -18px;
+}
+
+#recommendation-1z2x {
+  font-weight: bold;
+  font-size: calc(1.275rem + .3vw);
+  line-height: 1.2;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 100px;
+}
+
+#cluster-label {
+  font-weight: normal;
+  font-size: calc(1.1rem + .3vw);
+  line-height: 1.2;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#fill-recommendation {
+  height: 35px;
+}
+
+#explanation-1z2x {
+  margin: -10px 0px -17px;
+  padding: 0px;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 75%;
+}
