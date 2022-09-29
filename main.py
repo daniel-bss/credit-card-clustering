@@ -132,12 +132,26 @@ st.markdown(f"""<span id="recommendation-1z2x">Cluster {prediction}:</span><span
 st.markdown(f"""<p id="explanation-1z2x">{explanation[prediction][1]}</p>""", unsafe_allow_html=True)
 
 # Display customer into highlighted clusters
-label = cluster_json["color"]
+dbscan_labels = cluster_json["color"]
+
+def getRestOfTheClusters(prediction):
+    """Function to pop a label out"""
+    labels = [i for i in range(7)]
+    labels.pop(prediction)
+    labels = [str(i) for i in labels]
+    return ", ".join(labels)
+
+restOfTheClusters = getRestOfTheClusters(prediction)
+# Move the desired label at the 0th index
+if prediction:
+    indexOfLabel = np.where(dbscan_labels == prediction)[0][0] # get first tuple, then get first index
+    dbscan_labels[0], dbscan_labels[indexOfLabel] = dbscan_labels[indexOfLabel], dbscan_labels[0]
+
 fig = px.scatter_3d(x = cluster_json["x"], 
                     y = cluster_json["y"], 
                     z = cluster_json["z"],
-                    color = np.where(label == prediction, prediction, -1),
-                    color_continuous_scale=["#C3C3C3", "#3EFE06"])
+                    color = np.where(dbscan_labels == prediction, f"Cluster {prediction}", f"Cluster {restOfTheClusters}"),
+                    color_discrete_sequence=["#3EFE06", "#C3C3C3"])
 
-# display Plotly using Streamlit
+# display Plotly with Streamlit
 st.plotly_chart(fig, use_container_width=True)
