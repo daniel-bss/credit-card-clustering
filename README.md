@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/daniel-bss/credit-card-clustering/main/img/bg.png">
+<img style="width: 100%" src="https://raw.githubusercontent.com/daniel-bss/credit-card-clustering/main/img/bg.png">
 <h3 align="center" style="margin-top: 12px; font-size: 1.5em">Credit Card Customer Segmentation<h3>
 
 <h2>📄Table of Contents</h2>
@@ -73,10 +73,37 @@ You have successfully created Virtual Environment with the desired Python versio
 streamlit run main.py
 ```
 
-<img style="border: 2px solid black; border-radius: 5px;" src="https://github.com/daniel-bss/credit-card-clustering/blob/main/img/app-demo.gif?raw=true">
-<p style="font-size: 0.85em; text-align: center;"><i>(Quick look of the Web App. Created with Streamlit, hosted by Heroku)</i></p>
+<dl>
+  <dd>
+    <dl>
+      <dd>
+        <dl>
+          <dd>
+            <dl>
+              <dd>
+                <dl>
+                  <dd>
+                    <dl>
+                      <dd>
+                        <dl>
+                          <dd>
+                            <img style="width: 100%;" src="https://raw.githubusercontent.com/daniel-bss/credit-card-clustering/main/img/webapp_2.png">
+                          </dd>
+                        </dl>
+                      </dd>
+                    </dl>
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+        </dl>
+      </dd>
+    </dl>
+  </dd>
+</dl>
 
-<div style="margin-top: 36px;"></div>
+<p style="margin-top: 100px;" align="center"><i>(Quick look of the Web App. Created with Streamlit, hosted by Heroku)</i></p>
 
 <h2 id="contributors">👨‍💻Contributors</h2>
 
