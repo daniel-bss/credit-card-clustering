@@ -27,7 +27,7 @@ git clone https://github.com/daniel-bss/credit-card-clustering.git
 ```
 <h3 id="creating-env">Create and Activate Python Virtual Environment</h3>
 
-To keep up with the same environment, make sure you have <b>Python 3.8.x</b> installed. Then install `virtualenv` package.
+To keep up with the same environment, make sure you have <b>Python 3.9.x</b> installed. Then install `virtualenv` package.
 
 ```
 pip install virtualenv
@@ -37,12 +37,12 @@ pip install virtualenv
 Proceed on creating Virtual Environment.
 
 ```
-virtualenv venv --python="<THE_PATH_TO_YOUR_PYTHON38_EXECUTABLE_FILE>"
+virtualenv venv --python="<THE_PATH_TO_YOUR_PYTHON39_EXECUTABLE_FILE>"
 ```
 
 >Example on Windows:
 ```
-virtualenv venv --python="C:\Users\JohnDoe\AppData\Local\Programs\Python\Python38\python.exe"
+virtualenv venv --python="C:\Users\JohnDoe\AppData\Local\Programs\Python\Python39\python.exe"
 ```
 
 <br>
